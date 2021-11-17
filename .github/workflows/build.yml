@@ -32,5 +32,5 @@ jobs:
         prerelease: true
         title: "Development Build"
         files: |
-          /home/runner/work/gh-actions-java-maven/gh-actions-java-maven/target/gh-actions-java-maven-0.0.1-SNAPSHOT.jar
+          /home/runner/work/java-gitaction-poc/java-gitaction-poc/target/gh-actions-java-maven-0.0.1-SNAPSHOT.jar
       
