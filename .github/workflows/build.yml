@@ -39,5 +39,7 @@ jobs:
        # Build docker image
     - name: Image
       run: |-
+          pwd 
+          ls
           docker build -f /home/runner/work/java-gitaction-poc/java-gitaction-poc/Dockerfile -t eu.gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA .
 
